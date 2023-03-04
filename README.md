@@ -1,2 +1,2 @@
 
-SQL code project developing banking database and practicing the DDL, DML, and other basic sql concepts
+Designing and developing a banking database management system and manipuating the DB by applying DDL, DML, and other T-sql languages.
