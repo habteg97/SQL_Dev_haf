@@ -199,7 +199,7 @@ Values
 -----------------INSERTING DATA INTO CUSTOMER TABLE--------
 Insert Into [Person].[Customer]([Cust_Fname],[Cust_Lname],[Cust_Gender],[City])
 Values
-('Ken	    ','Sánchez	        ','M','	New York           '),   
+('Ken	    ','SÃ¡nchez	        ','M','	New York           '),   
 ('Terri	    ','Duffy			','F','	Los Angeles        '),
 ('Roberto	','Tamburello		','M','	Chicago 		   '),
 ('Rob	    ','Walters			','M','	Houston    		   '),
@@ -594,7 +594,7 @@ EXAMPLE:
 		 and compares with [Bank].[Branch]s [Bank_Code] then returns the matching to the 
 		 outer query, then the outer query takes the matching codes and returns the specified colmns 
 		 
--- UDF(Scalar and table valued function): are declared using the CREATE FUNCTION statement
+-- UDF(Scalar and table valued function): are declared using theÂ CREATE FUNCTIONÂ statement
 
 SCALAR:
 EXAMPLE:
@@ -642,6 +642,5 @@ Where [Person].[Customer].Cust_Id = @Cust_Id
 )
 Select * from dbo.Fx_Customer(505) 
 
-???????????? not finished + consider deposit amt and borrow amt
 
  
